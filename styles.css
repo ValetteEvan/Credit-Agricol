@@ -1,0 +1,9 @@
+.header-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: auto;
+  max-height: 50px;
+  transform: none;
+}
