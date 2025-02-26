@@ -6,7 +6,7 @@
 
 .header-global {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 8px;
   align-items: center;
@@ -29,14 +29,14 @@
 }
 
 .header-nav {
-  grid-column: span 5 / span 5;
+  grid-column: span 6 / span 6;
   grid-column-start: 2;
   grid-row-start: 2;
 }
 
 .buttons {
   grid-column: span 2 / span 2;
-  grid-column-start: 5;
+  grid-column-start: 6;
   grid-row-start: 1;
 }
 
@@ -101,6 +101,10 @@ body {
   background-color: rgb(243, 255, 240);
 }
 
+.first-block {
+  background-color: #e1fff1;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -147,16 +151,18 @@ body {
   border-radius: 10px;
 }
 
+.bloc-assurance {
+  background-color: #378177;
+}
 .assurance-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #378177;
   padding: 40px;
   color: white;
   border-radius: 10px;
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 0px auto;
 }
 
 .assurance-text {
