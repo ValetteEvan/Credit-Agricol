@@ -81,3 +81,123 @@ button:hover {
   background: #00754a;
   color: white;
 }
+
+.separator {
+  background: rgb(222, 226, 233);
+  width: 1px;
+  height: 16px;
+}
+
+.separator-button {
+  background: rgb(222, 226, 233);
+  width: 1px;
+  height: 40px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 255, 240);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.text-section {
+  width: 50%;
+}
+
+.text-section h4 {
+  color: #6c757d;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.text-section h1 {
+  font-size: 36px;
+  color: #212529;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007a5e;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.image-section {
+  width: 50%;
+  text-align: right;
+}
+
+.image-section img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.assurance-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #378177;
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.assurance-text {
+  max-width: 40%;
+}
+
+.assurance-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.assurance-text p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.devis-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.assurance-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.assurance-card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}

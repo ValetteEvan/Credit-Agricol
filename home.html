@@ -19,10 +19,11 @@
         <div class="header-nav">
           <nav>
             <ul>
-              <li><a href="#">Comptes & Cartes</a></li>
-              <li><a href="#">Épargne</a></li>
-              <li><a href="#">Assurances</a></li>
-              <li><a href="#">Crédits</a></li>
+              <li><strong href="#">Comptes & Cartes</strong></li>
+              <li><strong href="#">Épargne</strong></li>
+              <li><strong href="#">Assurances</strong></li>
+              <li><strong href="#">Crédits</strong></li>
+              <li class="separator" aria-orientation="vertical"></li>
               <li><a href="#">Simulation & devis</a></li>
               <li><a href="#">Nos conseils</a></li>
               <li><a href="#">Offres transitions</a></li>
@@ -31,12 +32,44 @@
           </nav>
         </div>
         <div class="buttons">
+          <p class="separator-button" aria-orientation="vertical"></p>
           <button class="open-account">Ouvrir un compte</button>
           <button class="login">Me connecter</button>
         </div>
       </div>
     </header>
-    <h1>Home</h1>
-    <p>Welcome to the home page!</p>
+    <div class="container">
+      <div class="text-section">
+        <h4>CRÉDIT AGRICOLE BANQUE ET ASSURANCES</h4>
+        <h1>Choisissez un compte utile et qui vous ressemble</h1>
+        <a href="#" class="btn">Ouvrir un compte</a>
+      </div>
+      <div class="image-section">
+        <img
+          src="img/Famille-Deon-V2.webp"
+          alt="Groupe de personnes heureuses"
+        />
+      </div>
+    </div>
+    <section class="assurance-section">
+      <div class="assurance-text">
+        <h2>Besoin d’une assurance ?</h2>
+        <p>
+          Le Crédit Agricole vous assure dans votre quotidien. Réalisez votre
+          devis en ligne dès maintenant.
+        </p>
+        <a href="#" class="devis-link">Découvrez tous nos devis</a>
+      </div>
+      <div class="assurance-buttons">
+        <div class="assurance-card">
+          <span class="icon">🏠</span>
+          <p>Devis assurance habitation</p>
+        </div>
+        <div class="assurance-card">
+          <span class="icon">🚗</span>
+          <p>Devis assurance auto</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
