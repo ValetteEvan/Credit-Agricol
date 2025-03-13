@@ -102,7 +102,7 @@ body {
 }
 
 .first-block {
-  background-color: #e1fff1;
+  background-color: #ecfdf5;
 }
 
 .container {
@@ -213,7 +213,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  background-color: #f2f8f3; /* Fond doux */
+  background-color: #ffffff; /* Fond doux */
   padding: 20px;
 }
 
@@ -225,8 +225,18 @@ body {
 
 .type {
   display: inline-block;
-  color: #8700a2;
-  background-color: thistle;
+  color: #bf01e4;
+  background-color: rgb(234, 208, 234);
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.type-two {
+  display: inline-block;
+  color: #0090d8;
+  background-color: rgb(196, 210, 229);
   border-radius: 5px;
   padding: 7px;
   margin-bottom: 10px;
@@ -234,18 +244,16 @@ body {
 }
 
 .container-one {
-  background-color: #e1fff1;
+  background-color: #e7e7e7;
   border-radius: 12px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   padding: 40px;
   width: 480px;
 }
 
 .container-two {
-  background-color: #e1fff1;
+  background-color: #e7e7e7;
   border-radius: 12px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   padding: 40px;
   width: 480px;
