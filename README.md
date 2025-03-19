@@ -25,7 +25,7 @@ L'objectif de ce projet est d'améliorer mes compétences en intégration web en
 ## 🔧 Installation  
 1. Clonez ce dépôt :  
    ```bash
-   git clone https://github.com/ton-utilisateur/ton-repo.git
+   git clone https://github.com/ValetteEvan/Credit-Agricol.git
 
    
 ## 📜 Licence
